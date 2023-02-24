@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h2>hello vuejs</h2>
   </div>
 </template>
 
