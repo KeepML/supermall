@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <h2>hello vuejs</h2>
+    <router-view></router-view>
+    <MainTabBar></MainTabBar>
   </div>
 </template>
 
 <script>
+import MainTabBar from '@/components/content/mainTabBar/MainTabBar';
 
 export default {
   name: 'app',
   components: {
+    MainTabBar,
   }
 }
 </script>
